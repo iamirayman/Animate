@@ -33,6 +33,7 @@
 
 .logo {
   width: 140px;
+  cursor: pointer;
 }
 
 .nav ul li {
@@ -47,11 +48,18 @@
   font-weight: 400;
 }
 
+.nav ul li a:hover {
+  color: #df4881;
+}
 .log {
   text-decoration: none;
   color: #333;
   margin: 50px;
   font-weight: 400;
+}
+
+.log:hover {
+  color: #df4881;
 }
 
 .btn {
@@ -117,3 +125,6 @@
     transform: translateY(0);
   }
 }
+
+
+ 
